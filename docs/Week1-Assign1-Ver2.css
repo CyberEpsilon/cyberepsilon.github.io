@@ -1,9 +1,38 @@
-div.topBar {
+div .topBar {
   list-style-type: none;
-  margin: 0;
+  margin:0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  padding-left: 40%;
+  padding-right: 8%;
+}
+
+.Box1 {
+  overflow:auto;
+  overflow-x: none;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: #333;
+  padding-left: 40%;
+  padding-right: 8%;
+}
+
+
+
+div .BottomBar {
+  list-style-type: none;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding-left: 40%;
   padding-right: 8%;
 }
@@ -18,10 +47,11 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   text-align: center;
+  list-style-type: none;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: orange;
 }
 
 .menu:hover{
