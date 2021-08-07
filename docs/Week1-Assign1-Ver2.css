@@ -8,10 +8,32 @@ div .topBar {
   padding-right: 8%;
 }
 
+
+
+body{
+  background-color: gray;
+}
+
 .Box1 {
   overflow:auto;
+  margin-left: 41%;
+  length: 400px;
+  width:300px;
+  margin-right: 50%;
   overflow-x: none;
+  padding left: 40%;
+  padding-right: 8%;
+  position: fixed;
+  align: center;
 }
+
+.Box2 {
+  border-style: groove;
+  width: 500px;
+  height: 400px;
+}
+
+
 .menu {
   list-style-type: none;
   margin: 0;
@@ -37,8 +59,18 @@ div .BottomBar {
   padding-right: 8%;
 }
 
+div .Box1{
+
+}
+
 li {
   float: left;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+  border-style: groove;
 }
 
 li a {
